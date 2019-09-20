@@ -17,11 +17,107 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	public static void space() {
+		System.out.println("");
+		
+	}
+	public static void eightAstricks() {
+		System.out.print("********");
+	}
+	
+	public static void fourAstricks() {
+		System.out.print("****");
+	}
+	
+	public static void caption() {
+		System.out.println("----------------------------");
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		caption();
+		System.out.println("|I'm hungry! I want bamboo!|");
+		caption();
+		System.out.println("\t\\");
+		System.out.println("\t \\");
+		System.out.println("\t  \\");
+		System.out.println("\t   \\");
+		
+		space();
+		space();
+		space();
+		space();
+		System.out.print("\t");
+		fourAstricks();
+		System.out.print("\t\t    ");
+		fourAstricks();
+		System.out.print("\n       "); /*panda ears*/
+		fourAstricks();
+		System.out.print("\t\t     ");
+		fourAstricks();	
+		System.out.println("\n        **\t\t      ** ");
+		space();
+		
+		
+		
+		System.out.print("       *");
+		System.out.println("    **\t         **    *");
+		System.out.print("      *");
+		System.out.println("    ** *\t        * **    *");
+		System.out.print("     *");
+		System.out.println("      **\t         **      *");
+		System.out.print("    *");
+		System.out.println("   \t  ****\t\t  *");
+		System.out.print("    *");
+		System.out.println("   \t   **\t\t  *");  /*panda face*/
+		System.out.print("     *");
+		System.out.println("    \t********\t  *");
+		System.out.println("      *  \t\t\t *");
+		System.out.println("       *\t\t\t*");
+		space();
+	
+		System.out.println("\t ***\t\t     ***");
+		System.out.print("\t");
+		eightAstricks();
+		eightAstricks();
+		eightAstricks();
+		System.out.println("*");
+		System.out.print("       ");
+		eightAstricks();
+		eightAstricks();
+		eightAstricks();
+		System.out.println("***");
+		System.out.print("      ");
+		eightAstricks();
+		System.out.print("  \t   ");
+		eightAstricks();
+		System.out.print("\n     ");
+		eightAstricks();
+		System.out.print("    \t    ");
+		eightAstricks();
+		System.out.println("");
+	    System.out.print("     ");	/*panda body*/
+	    eightAstricks();
+	    System.out.print("    \t    ");
+	    eightAstricks();
+	    System.out.println("");
+	    System.out.print("     ");
+	    eightAstricks();
+	    System.out.print("    \t    ");
+	    eightAstricks();
+	    System.out.print("\n      ");
+	    eightAstricks();
+	    System.out.print("    \t   ");
+	    eightAstricks();
+	    
+	    
+	    space();
+	    space();
+	    space();
+	    System.out.println("A panda exclaiming their desire for bamboo.");
+	    
+	    
+	    
+	   
+		
+		
 	}
 }
